@@ -27,7 +27,5 @@ jobs:
       - name: Print the runner operating system
         run: echo "The runner OS is ${{ runner.os }}"
 
-      - name: Fail step
-        run: exit 1
 
       # This is test comment for debuging
